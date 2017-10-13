@@ -6,6 +6,14 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirusTotal-Test", "VirusTotal-Test\VirusTotal-Test.csproj", "{34885EEB-6F43-43CE-86C8-BE6D6B31B713}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestFiles", "TestFiles", "{B022353E-51D4-47D8-996D-E90CBBF94419}"
+	ProjectSection(SolutionItems) = preProject
+		TestFiles\TestDocument.docx = TestFiles\TestDocument.docx
+		TestFiles\TestPhoto.jpeg = TestFiles\TestPhoto.jpeg
+		TestFiles\TestVideo.mov = TestFiles\TestVideo.mov
+		TestFiles\TestVirus.txt = TestFiles\TestVirus.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{823C889F-9C36-4442-AAD6-FCD354D72E2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +25,10 @@ Global
 		{34885EEB-6F43-43CE-86C8-BE6D6B31B713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34885EEB-6F43-43CE-86C8-BE6D6B31B713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34885EEB-6F43-43CE-86C8-BE6D6B31B713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823C889F-9C36-4442-AAD6-FCD354D72E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823C889F-9C36-4442-AAD6-FCD354D72E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823C889F-9C36-4442-AAD6-FCD354D72E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823C889F-9C36-4442-AAD6-FCD354D72E2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
