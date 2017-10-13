@@ -55,8 +55,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EnumReportResponseCode.cs" />
     <Compile Include="EnumScanResponseCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportResponseData.cs" />
     <Compile Include="ScanResponseData.cs" />
     <Compile Include="VirusTotalHandle.cs" />
   </ItemGroup>

@@ -41,7 +41,12 @@ namespace VirusTotal_Test
             return await GetScanResultAsync(await handle.ScanFileAsync(file, filePath));
         }
 
-        public async Task<byte[]> FileToBytesAsync(string filePath)
+        public async Task<ReportResponseData> ReportFileAsync(string resource)
+        {
+            return await GetScanReportAsync(await handle.GetFileReportAsync(resource));
+        }
+
+        private async Task<byte[]> FileToBytesAsync(string filePath)
         {
             FileStream fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
             byte[] buffer = new byte[fileStream.Length];
@@ -51,7 +56,7 @@ namespace VirusTotal_Test
             return buffer;
         }
 
-        public async Task<ScanResponseData> GetScanResultAsync(ScanResult res)
+        private async Task<ScanResponseData> GetScanResultAsync(ScanResult res)
         {
             ScanResponseData data = new ScanResponseData(
                 res,
@@ -63,6 +68,25 @@ namespace VirusTotal_Test
                 res.SHA256,
                 (EnumScanResponseCode)Convert.ToInt32(res.ResponseCode),
                 res.VerboseMsg
+            );
+            return data;
+        }
+
+        private async Task<ReportResponseData> GetScanReportAsync(FileReport report)
+        {
+            ReportResponseData data = new ReportResponseData(
+                report,
+                report.MD5,
+                report.Permalink,
+                report.Positives,
+                report.Resource,
+                report.ScanDate,
+                report.ScanId,
+                report.Scans,
+                report.SHA1,
+                report.Total,
+                (EnumReportResponseCode)Convert.ToInt32(report.ResponseCode),
+                report.VerboseMsg
             );
             return data;
         }
