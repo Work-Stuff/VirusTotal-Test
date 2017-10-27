@@ -15,33 +15,31 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="bin\Debug\Newtonsoft.Json.dll" target="bin\Debug\Newtonsoft.Json.dll" />
-        <file src="bin\Debug\Newtonsoft.Json.xml" target="bin\Debug\Newtonsoft.Json.xml" />
-        <file src="bin\Debug\VirusTotal-Test.dll" target="bin\Debug\VirusTotal-Test.dll" />
-        <file src="bin\Debug\VirusTotal-Test.dll.config" target="bin\Debug\VirusTotal-Test.dll.config" />
-        <file src="bin\Debug\VirusTotal-Test.pdb" target="bin\Debug\VirusTotal-Test.pdb" />
-        <file src="bin\Debug\VirusTotal.NET.dll" target="bin\Debug\VirusTotal.NET.dll" />
-        <file src="bin\Debug\Newtonsoft.Json.dll" target="lib\Newtonsoft.Json.dll" />
-        <file src="bin\Debug\VirusTotal-Test.dll" target="lib\VirusTotal-Test.dll" />
-        <file src="bin\Debug\VirusTotal.NET.dll" target="lib\VirusTotal.NET.dll" />
-        <file src="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" target="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-        <file src="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" target="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-        <file src="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" target="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-        <file src="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" target="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-        <file src="obj\Debug\VirusTotal-Test.csproj.CopyComplete" target="obj\Debug\VirusTotal-Test.csproj.CopyComplete" />
-        <file src="obj\Debug\VirusTotal-Test.csproj.CoreCompileInputs.cache" target="obj\Debug\VirusTotal-Test.csproj.CoreCompileInputs.cache" />
-        <file src="obj\Debug\VirusTotal-Test.csproj.FileListAbsolute.txt" target="obj\Debug\VirusTotal-Test.csproj.FileListAbsolute.txt" />
-        <file src="obj\Debug\VirusTotal-Test.dll" target="obj\Debug\VirusTotal-Test.dll" />
-        <file src="obj\Debug\VirusTotal-Test.pdb" target="obj\Debug\VirusTotal-Test.pdb" />
-        <file src="Properties\AssemblyInfo.cs" target="Properties\AssemblyInfo.cs" />
-        <file src=".VirusTotal-Test.csproj.nuspec.swp" target=".VirusTotal-Test.csproj.nuspec.swp" />
-        <file src=".VirusTotal-Test.csproj.nuspec.un~" target=".VirusTotal-Test.csproj.nuspec.un~" />
-        <file src="App.config" target="App.config" />
-        <file src="EnumReportResponseCode.cs" target="EnumReportResponseCode.cs" />
-        <file src="EnumScanResponseCode.cs" target="EnumScanResponseCode.cs" />
-        <file src="ReportResponseData.cs" target="ReportResponseData.cs" />
-        <file src="ScanResponseData.cs" target="ScanResponseData.cs" />
-        <file src="VirusTotal-Test.csproj" target="VirusTotal-Test.csproj" />
-        <file src="VirusTotalHandle.cs" target="VirusTotalHandle.cs" />
+        <file src="VirusTotal-Test\bin\Debug\Newtonsoft.Json.dll" target="bin\Debug\Newtonsoft.Json.dll" />
+        <file src="VirusTotal-Test\bin\Debug\Newtonsoft.Json.xml" target="bin\Debug\Newtonsoft.Json.xml" />
+        <file src="VirusTotal-Test\bin\Debug\VirusTotal-Test.dll" target="bin\Debug\VirusTotal-Test.dll" />
+        <file src="VirusTotal-Test\bin\Debug\VirusTotal-Test.dll.config" target="bin\Debug\VirusTotal-Test.dll.config" />
+        <file src="VirusTotal-Test\bin\Debug\VirusTotal-Test.pdb" target="bin\Debug\VirusTotal-Test.pdb" />
+        <file src="VirusTotal-Test\bin\Debug\VirusTotal.NET.dll" target="bin\Debug\VirusTotal.NET.dll" />
+        <file src="VirusTotal-Test\bin\Debug\Newtonsoft.Json.dll" target="lib\Newtonsoft.Json.dll" />
+        <file src="VirusTotal-Test\bin\Debug\VirusTotal-Test.dll" target="lib\VirusTotal-Test.dll" />
+        <file src="VirusTotal-Test\bin\Debug\VirusTotal.NET.dll" target="lib\VirusTotal.NET.dll" />
+        <file src="VirusTotal-Test\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" target="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+        <file src="VirusTotal-Test\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" target="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+        <file src="VirusTotal-Test\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" target="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+        <file src="VirusTotal-Test\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" target="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        <file src="VirusTotal-Test\obj\Debug\VirusTotal-Test.csproj.CopyComplete" target="obj\Debug\VirusTotal-Test.csproj.CopyComplete" />
+        <file src="VirusTotal-Test\obj\Debug\VirusTotal-Test.csproj.CoreCompileInputs.cache" target="obj\Debug\VirusTotal-Test.csproj.CoreCompileInputs.cache" />
+        <file src="VirusTotal-Test\obj\Debug\VirusTotal-Test.csproj.FileListAbsolute.txt" target="obj\Debug\VirusTotal-Test.csproj.FileListAbsolute.txt" />
+        <file src="VirusTotal-Test\obj\Debug\VirusTotal-Test.dll" target="obj\Debug\VirusTotal-Test.dll" />
+        <file src="VirusTotal-Test\obj\Debug\VirusTotal-Test.pdb" target="obj\Debug\VirusTotal-Test.pdb" />
+        <file src="VirusTotal-Test\Properties\AssemblyInfo.cs" target="Properties\AssemblyInfo.cs" />
+        <file src="VirusTotal-Test\App.config" target="App.config" />
+        <file src="VirusTotal-Test\EnumReportResponseCode.cs" target="EnumReportResponseCode.cs" />
+        <file src="VirusTotal-Test\EnumScanResponseCode.cs" target="EnumScanResponseCode.cs" />
+        <file src="VirusTotal-Test\ReportResponseData.cs" target="ReportResponseData.cs" />
+        <file src="VirusTotal-Test\ScanResponseData.cs" target="ScanResponseData.cs" />
+        <file src="VirusTotal-Test\VirusTotal-Test.csproj" target="VirusTotal-Test.csproj" />
+        <file src="VirusTotal-Test\VirusTotalHandle.cs" target="VirusTotalHandle.cs" />
     </files>
 </package>
